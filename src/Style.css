@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    background-color: rgb(233, 233, 233);
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    background-color: #007bff;
+    color: white;
+}
+
+#heading {
+    margin: 30px 0px;
+}
+
+.form {
+    background-color: white;
+    padding: 25px;
+    margin: 20px 30px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.formHeader {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formFields {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 50%;
+    gap: 20px;
+}
+
+.formFieldsAdd {
+    margin-top: 20px;
+}
+
+.field {
+    min-width: 33%;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 8px;
+}
+
+.addButton {
+    margin-top: 30px;
+}
+
+label {
+    margin-top: 8px;
+    font-weight: bold;
+}
