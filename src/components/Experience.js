@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Field from "./Field";
 import Buttons from "./Buttons";
+import PortfolioIcon from "./../images/portfolio.png";
 
 class Experience extends Component {
   constructor(props) {
@@ -36,7 +37,10 @@ class Experience extends Component {
             <div className="form">
                 <form onSubmit={this.onSubmit}>
                     <div className="formHeader"> 
-                        <h3>Experience</h3>
+                    <div className="formHeaderdesc">
+                            <img src={PortfolioIcon} />
+                            <h3>Experience</h3>
+                        </div>
                         <Buttons showForm={showForm} />
                     </div>
                     <div className="formFields">
@@ -57,7 +61,10 @@ class Experience extends Component {
                 <div className="form">
                 <form onSubmit={this.onSubmit}>
                     <div className="formHeader"> 
-                        <h3>Experience</h3>
+                    <div className="formHeaderdesc">
+                            <img src={PortfolioIcon} />
+                            <h3>Experience</h3>
+                        </div>
                         <Buttons showForm={showForm} />
                     </div>
                     <div className="formFields">

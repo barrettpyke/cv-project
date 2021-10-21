@@ -2,6 +2,10 @@ import React, { Component } from "react";
 import Field from "./Field";
 import Buttons from "./Buttons";
 import ReactToPrint from "react-to-print";
+import DocIcon from "./../images/document.png"
+
+
+
 
 class General extends Component {
   constructor(props) {
@@ -27,7 +31,10 @@ class General extends Component {
             <div className="form">
                 <form onSubmit={this.onSubmit}>
                     <div className="formHeader"> 
-                        <h3>General Information</h3>
+                        <div className="formHeaderdesc">
+                            <img src={DocIcon} />
+                            <h3>General Information</h3>
+                        </div>
                         <Buttons showForm={showForm} />
                     </div>
                     <div className="formFields">

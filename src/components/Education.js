@@ -1,6 +1,7 @@
-import React, { Component } from "react"
-import Field from "./Field"
-import Buttons from "./Buttons"
+import React, { Component } from "react";
+import Field from "./Field";
+import Buttons from "./Buttons";
+import SchoolIcon from "./../images/school.png"
 
 class Education extends Component {
   constructor(props) {
@@ -34,7 +35,10 @@ class Education extends Component {
             <div className="form">
                 <form onSubmit={this.onSubmit}>
                     <div className="formHeader"> 
-                        <h3>Education</h3>
+                    <div className="formHeaderdesc">
+                            <img src={SchoolIcon} />
+                            <h3>Education</h3>
+                        </div>
                         <Buttons showForm={showForm} />
                     </div>
                     <div className="formFields">
@@ -53,7 +57,10 @@ class Education extends Component {
                 <div className="form">
                 <form onSubmit={this.onSubmit}>
                     <div className="formHeader"> 
-                        <h3>Education</h3>
+                    <div className="formHeaderdesc">
+                            <img src={SchoolIcon} />
+                            <h3>Education</h3>
+                        </div>
                         <Buttons showForm={showForm} />
                     </div>
                     <div className="formFields">

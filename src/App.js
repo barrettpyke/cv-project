@@ -11,9 +11,10 @@ class App extends Component {
 
 render() {
   return (
-    <div>
+    <div id="container">
       <div id="header">
         <h1 id="heading">CV Generator</h1>
+        <button type="button" id="printButton" className="btn btn-success">Print to PDF</button>
       </div>
         <General />
         <Education />
